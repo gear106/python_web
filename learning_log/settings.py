@@ -150,7 +150,7 @@ if os.getcwd() == '/app':
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     # 书中设置是这样的： STATIC_ROOT = "staticfiles"
     STATIC_URL = '/static/'
-    STATIC_ROOT = os.path.join(BASE_DIR, 'learning_logs\static')
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #    STATICFILES_DIRS = (
 #        os.path.join(BASE_DIR, "static"),
 #    )
