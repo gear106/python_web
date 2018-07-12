@@ -1,0 +1,17 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+  <div class="jumbotron">
+    <h1>------
+	Perfect you</h1>
+  </div>
+{% endblock header %}
+
+{% block content %}
+   <h2>
+    <a href="{% url 'users:register' %}">注册</a>一个账户，记录生活的点滴，好让你明白我心动的痕迹。
+  </h2>
+  <h2>
+    She shares my dream, I hope someday I'll share her home. I see my future in your eyes...
+  </h2>
+{% endblock content %}
