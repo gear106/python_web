@@ -132,8 +132,8 @@ BOOTSTRAP3 = {
 
 # 书中的判断语句是 if os.getcwd() == '/app': 
 # 现在估计是Heroku升级了，改为了下面的语句，否则待会儿部署的时候会出错
-#if os.getcwd() == '/app': 
-if os.environ['HOME'] == "/app":
+if os.getcwd() == '/app': 
+#if os.environ['HOME'] == "/app":
     import dj_database_url
 
     DATABASES = {
